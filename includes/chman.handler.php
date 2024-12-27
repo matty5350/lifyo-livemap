@@ -87,7 +87,7 @@
 			if( $quality < 1 || $quality > 1000 ) Livemap::error_redirect("Invalid Quality");
 			if( $object_id < 1 || $object_id > 9999 ) Livemap::error_redirect("Invalid Item ID");
 			if( $durability < 1 || $durability > 20000 ) Livemap::error_redirect("Invalid Durability");
-			if( ! in_array($region, [0,12,13,14]) ) Livemap::error_redirect("Invalid Durability");
+			if( ! in_array($region, [0,12,13,14,15,16,17,18,19,20]) ) Livemap::error_redirect("Invalid Durability");
 			// Replace 0 region with NULL
 			if( ! $region ) $region = 'NULL';
 			// Insert items
