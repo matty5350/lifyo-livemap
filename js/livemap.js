@@ -227,7 +227,32 @@ function Livemap( controller ) {
 								regionName  = Locale.ui[114]
 								regionColor = "Magenta";
 								break;
+							case "15":
+								regionName  = Locale.ui[115];
+								regionColor = "Orange";
+								break;
+							case "16":
+								regionName  = Locale.ui[116];
+								regionColor = "Blue";
+								break;
+							case "17":
+								regionName  = Locale.ui[117]
+								regionColor = "Purple";
+								break;	
 							default:
+							case "18":
+								regionName  = Locale.ui[118];
+								regionColor = "Green";
+								break;
+							case "19":
+								regionName  = Locale.ui[119];
+								regionColor = "Red";
+								break;
+							case "20":
+								regionName  = Locale.ui[120]
+								regionColor = "Pink";
+								break;	
+							default:	
 								regionName  = "Unknown";
 								regionColor = "Gray";
 
