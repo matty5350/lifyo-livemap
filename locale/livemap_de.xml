@@ -125,6 +125,12 @@
 		<string id="240">Zeitlimit überschritten. Der Server hat nicht reagiert. Server offline?</string>
 		<string id="241">Die Aktion wurde vom Server abgelehnt</string>
 		<string id="242">Die Änderungen wurden erfolgreich gespeichert</string>
+		<string id="243">Icy Hermits</string>
+		<string id="244">Chilling Thickets</string>
+		<string id="245">Rocky Plains</string>
+		<string id="246">Central Domain</string>
+		<string id="247">Western Domain</string>
+		<string id="248">southern Drifters</string>
 	</ui>
 	<!-- Game Objects -->
 	<objects>
